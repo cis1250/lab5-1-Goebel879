@@ -35,4 +35,10 @@ A main():
     while (is_sentence(user_sentence) == False):
         print("This does not meet the criteria for a sentence.")
         user_sentence = input("Enter a sentence: ")
+        word = user_sentence.split()
+    list1 = word
+    list2 = [0]*len(user_sentence)
+    i = 0
+    q = 1
+    print("Output: ")
     
