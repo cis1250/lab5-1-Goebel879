@@ -24,3 +24,10 @@ def is_sentence(text):
         return False
 
     return True
+
+
+    get_sentence()
+    calculate_frequencies(sentence)
+    print_frequencies(words, frequencies) 
+
+A main()
