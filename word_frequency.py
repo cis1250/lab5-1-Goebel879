@@ -37,12 +37,19 @@ def calculate_frequencies(sentence):
     s = []
     q = []
     s.append(sentence.split(' '))
+    n = len(s)
+    for i in range(n):
+        q = s.index(s[i])
+        i+= 1
+    return s, q
+    
 def print_frequencies(words, frequencies):
-    print("Hi")
+    print(words, frequencies)
     
 def main():
     given = get_sentence()
-    calculate_frequencies(given)
+    a, b = calculate_frequencies(given)
+    print_frequencies(a, b)
     print("Done")
     
 main()
