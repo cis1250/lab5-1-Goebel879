@@ -26,21 +26,23 @@ def is_sentence(text):
     return True
 
 
-    def get_sentence():
+def get_sentence():
+    user_sentence = input("Enter a sentence: ")
+    while (is_sentence(user_sentence) == False):
+        print("This does not meet the criteria for a sentence.")
         user_sentence = input("Enter a sentence: ")
-        while (is_sentence(user_sentence) == False):
-            print("This does not meet the criteria for a sentence.")
-            user_sentence = input("Enter a sentence: ")
+    return user_sentence
             
-    def calculate_frequencies(sentence)
-    def print_frequencies(words, frequencies) 
+def calculate_frequencies(sentence):
+    s = []
+    q = []
+    s.append(sentence.split(' '))
+def print_frequencies(words, frequencies):
+    print("Hi")
     
-A main():
-    getsentence()
-    word = user_sentence.split()
-    list1 = word
-    list2 = [0]*len(user_sentence)
-    i = 0
-    q = 1
-    print("Output: ")
+def main():
+    given = get_sentence()
+    calculate_frequencies(given)
+    print("Done")
     
+main()
