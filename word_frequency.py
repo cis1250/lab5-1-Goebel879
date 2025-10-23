@@ -26,14 +26,14 @@ def is_sentence(text):
     return True
 
 
-    get_sentence():
+    def get_sentence():
         user_sentence = input("Enter a sentence: ")
         while (is_sentence(user_sentence) == False):
             print("This does not meet the criteria for a sentence.")
             user_sentence = input("Enter a sentence: ")
             
-    calculate_frequencies(sentence)
-    print_frequencies(words, frequencies) 
+    def calculate_frequencies(sentence)
+    def print_frequencies(words, frequencies) 
     
 A main():
     getsentence()
